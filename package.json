@@ -1,0 +1,36 @@
+{
+  "name": "physical-mongodb",
+  "version": "0.1.0",
+  "description": "Physical module for testing downstream dependency on MongoDB",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine": "^2.6.0",
+    "mongoose": "^4.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garymcleanhall/physical-mongodb.git"
+  },
+  "keywords": [
+    "physical",
+    "module",
+    "mongo",
+    "mongodb",
+    "healthcheck",
+    "heartbeat",
+    "status"
+  ],
+  "author": "Gary McLean Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garymcleanhall/physical-mongodb/issues"
+  },
+  "homepage": "https://github.com/garymcleanhall/physical-mongodb#readme"
+}
