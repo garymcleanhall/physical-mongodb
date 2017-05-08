@@ -19,7 +19,5 @@ function _checkMongo(connectionString) {
 }
 
 module.exports = {
-  mongodb: {
-    check: _checkMongo
-  }
+  check: _checkMongo
 }

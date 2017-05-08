@@ -1,7 +1,8 @@
 'use strict';
 
-const
-  physical = require('../index')
+const physical = {
+  mongodb: require('../index')
+}
 
 function testAsync(runAsync) {
   return done => {
